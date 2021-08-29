@@ -9,14 +9,14 @@ sites:
     url: https://meli.smartineau.me
   - name: Minecraft Vanilla (Privé)
     url: $VANILLA_MC_DOMAIN
-    icon: https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/favicon.ico
+    icon: https://raw.githubusercontent.com/Samuel-Martineau/Smartineau.me-Statut/master/assets/minecraft.png
     check: tcp-ping
     port: 25565
 
 status-website:
   cname: statut.smartineau.me
   theme: ocean
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://raw.githubusercontent.com/Samuel-Martineau/Smartineau.me-Statut/master/assets/upptime-icon.svg
   name: Upptime
   navbar:
     - title: Statut
@@ -48,9 +48,9 @@ i18n:
   averageResponseTimeTitle: Réponse moyenne
   sevelDayResponseTime: Temps de réponse sur 7 jours
   responseTimeMs: Temps de réponse (ms)
-  up: Ouvert
-  down: Fermé
-  degraded: Endommagé
+  up: 🟩 Ouvert
+  down: 🟥 En panne
+  degraded: 🟨 Endommagé
   ms: ms
   loading: Chargement
   navGitHub: GitHub
@@ -69,3 +69,21 @@ i18n:
   durationMin: $DURATION minute(s)
   incidentCompleted: Complété
   incidentScheduled: Planifié
+  url: URL
+  status: Statut
+  history: Historique
+  responseTime: Temps de réponse
+  uptime: Temps de fonctionnement
+  responseTimeGraphAlt: Graphique du temps de réponse
+  responseTimeDay: Temps de réponse sur 24h
+  responseTimeWeek: Temps de réponse sur 7j
+  responseTimeMonth: Temps de réponse sur 30j
+  responseTimeYear: Temps de réponse sur 1 an
+  uptimeDay: Temps de fonctionnement sur 24h
+  uptimeWeek: Temps de fonctionnement sur 7j
+  uptimeMonth: Temps de fonctionnement sur 30j
+  uptimeYear: Temps de fonctionnement sur 1 an
+  liveStatusHtmlComment: "<!--live status-->"
+  degradedPerformance: "🟨 Performance dégradée"
+  completeOutage: "🟥 Panne complète"
+  partialOutage: "🟧 Panne partielle"
