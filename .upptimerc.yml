@@ -1,5 +1,5 @@
 owner: Samuel-Martineau
-repo: Smartineau.me-Statut
+repo: Smartineau.me-Etat
 
 sites:
   - name: Site web personnel
@@ -9,17 +9,17 @@ sites:
     url: https://meli.smartineau.me
   - name: Minecraft Vanilla (Privé)
     url: $VANILLA_MC_DOMAIN
-    icon: https://raw.githubusercontent.com/Samuel-Martineau/Smartineau.me-Statut/master/assets/minecraft.png
+    icon: https://raw.githubusercontent.com/Samuel-Martineau/Smartineau.me-Etat/master/assets/minecraft.png
     check: tcp-ping
     port: 25565
 
 status-website:
-  cname: statut.smartineau.me
+  cname: état.smartineau.me
   theme: ocean
-  logoUrl: https://raw.githubusercontent.com/Samuel-Martineau/Smartineau.me-Statut/master/assets/upptime-icon.svg
+  logoUrl: https://raw.githubusercontent.com/Samuel-Martineau/Smartineau.me-Etat/master/assets/upptime-icon.svg
   name: Upptime
   navbar:
-    - title: Statut
+    - title: État
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
@@ -41,7 +41,7 @@ i18n:
   incidentBack: ← Tous les incidents
   pastIncidents: Incidents passés
   pastIncidentsResolved: Réglé en $MINUTES minute(s) avec $POSTS publication(s)
-  liveStatus: Statut en direct
+  liveStatus: État en direct
   overallUptime: "Temps de fonctionnement total: $UPTIME"
   overallUptimeTitle: Temps de fonctionnement total
   averageResponseTime: "Temps de réponse moyen: $TIMEms"
@@ -70,7 +70,7 @@ i18n:
   incidentCompleted: Complété
   incidentScheduled: Planifié
   url: URL
-  status: Statut
+  status: État
   history: Historique
   responseTime: Temps de réponse
   uptime: Temps de fonctionnement
