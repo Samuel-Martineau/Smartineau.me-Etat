@@ -4,6 +4,7 @@ repo: Smartineau.me-Statut
 sites:
   - name: Site web personnel
     url: https://smartineau.me
+    icon: https://smartineau.me/favicon.png
   - name: Meli
     url: https://meli.smartineau.me
 
