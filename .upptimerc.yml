@@ -8,8 +8,9 @@ sites:
   - name: Meli
     url: https://meli.smartineau.me
   - name: Minecraft Vanilla (Privé)
-    check: tcp-ping
     url: $VANILLA_MC_DOMAIN
+    icon: https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/favicon.ico
+    check: tcp-ping
     port: 25565
 
 status-website:
