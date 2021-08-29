@@ -24,6 +24,15 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
+skipDescriptionUpdate: true
+user-agent: Samuel-Martineau
+
+commitMessages:
+  readmeContent: ":pencil: Mise à jour du README [skip ci] [upptime]"
+  summaryJson: ":card_file_box: Mise à jour de l'état [skip ci] [upptime]"
+  statusChange: "$EMOJI $SITE_NAME est $STATUS ($RESPONSE_CODE en $RESPONSE_TIME ms) [skip ci] [upptime]"
+  graphsUpdate: ":bento: Mise à jour des graphiques [skip ci] [upptime]"
+
 i18n:
   activeIncidents: Incidents en cours
   allSystemsOperational: Aucun problème détecté
