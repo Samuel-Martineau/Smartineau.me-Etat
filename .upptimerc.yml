@@ -7,15 +7,64 @@ sites:
     icon: https://smartineau.me/favicon.png
   - name: Meli
     url: https://meli.smartineau.me
+  - name: Minecraft Vanilla (Privé)
+    check: tcp-ping
+    url: $VANILLA_MC_DOMAIN
+    port: 25565
 
 status-website:
   cname: statut.smartineau.me
+  theme: ocean
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
-    - title: Status
+    - title: Statut
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+
+i18n:
+  activeIncidents: Incidents en cours
+  allSystemsOperational: Aucun problème détecté
+  incidentReport: "Rapport de l'incident #$NUMBER →"
+  activeIncidentSummary: Ouvert à $DATE avec $POSTS publication(s)
+  incidentTitle: "Détails de l'incident #$NUMBER"
+  incidentDetails: Détails de l'incident
+  incidentFixed: Réglé
+  incidentOngoing: En cours
+  incidentOpenedAt: Ouvert à
+  incidentClosedAt: Fermé à
+  incidentSubscribe: Suivre les mises à jour
+  incidentViewOnGitHub: Voir sur GitHub
+  incidentCommentSummary: Publié à $DATE par $AUTHOR
+  incidentBack: ← Tous les incidents
+  pastIncidents: Incidents passés
+  pastIncidentsResolved: Réglé en $MINUTES minute(s) avec $POSTS publication(s)
+  liveStatus: Statut en direct
+  overallUptime: "Temps de fonctionnement total: $UPTIME"
+  overallUptimeTitle: Temps de fonctionnement total
+  averageResponseTime: "Temps de réponse moyen: $TIMEms"
+  averageResponseTimeTitle: Réponse moyenne
+  sevelDayResponseTime: Temps de réponse sur 7 jours
+  responseTimeMs: Temps de réponse (ms)
+  up: Ouvert
+  down: Fermé
+  degraded: Endommagé
+  ms: ms
+  loading: Chargement
+  navGitHub: GitHub
+  footer: Ce site est générée par [Upptime](https://upptime.js.org)
+  errorTitle: Une erreur s'est produite
+  errorIntro: Une erreur s'est produite lors de l'accès aux dernières données
+  errorText: Réessayer dans quelques instants
+  errorHome: Aller à l'accueil
+  pastScheduledMaintenance: Entretiens planifiés passés
+  scheduledMaintenance: Entretiens planifiés
+  scheduledMaintenanceSummaryStarted: Débuté à $DATE pour $DURATION minute(s)
+  scheduledMaintenanceSummaryStarts: Débutera à $DATE pour $DURATION minute(s)
+  startedAt: Débuté à
+  startsAt: Débutera à
+  duration: Durée
+  durationMin: $DURATION minute(s)
+  incidentCompleted: Complété
+  incidentScheduled: Planifié
