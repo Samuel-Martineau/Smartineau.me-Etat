@@ -54,7 +54,7 @@ i18n:
   ms: ms
   loading: Chargement
   navGitHub: GitHub
-  footer: Ce site est générée par [Upptime](https://upptime.js.org)
+  footer: Ce site est généré par [Upptime](https://upptime.js.org)
   errorTitle: Une erreur s'est produite
   errorIntro: Une erreur s'est produite lors de l'accès aux dernières données
   errorText: Réessayer dans quelques instants
