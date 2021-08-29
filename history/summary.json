@@ -4,36 +4,40 @@
     "url": "https://smartineau.me",
     "icon": "https://smartineau.me/favicon.png",
     "slug": "site-web-personnel",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.96%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.96%",
     "time": 713,
     "timeDay": 713,
     "timeWeek": 713,
     "timeMonth": 713,
     "timeYear": 713,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-08-29": 0
+    }
   },
   {
     "name": "Meli",
     "url": "https://meli.smartineau.me",
     "icon": "https://favicons.githubusercontent.com/meli.smartineau.me",
     "slug": "meli",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.97%",
+    "uptimeDay": "99.97%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.97%",
     "time": 208,
     "timeDay": 208,
     "timeWeek": 208,
     "timeMonth": 208,
     "timeYear": 208,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-08-29": 0
+    }
   },
   {
     "name": "Minecraft Vanilla (Privé)",
