@@ -48,7 +48,7 @@
   {
     "name": "Minecraft Vanilla (Privé)",
     "url": "$VANILLA_MC_DOMAIN",
-    "icon": "https://raw.githubusercontent.com/Samuel-Martineau/Smartineau.me-Etat/master/assets/minecraft.png",
+    "icon": "https://raw.githubusercontent.com/Samuel-Martineau/Smartineau.me-Status/master/assets/minecraft.png",
     "slug": "minecraft-vanilla-prive",
     "status": "up",
     "uptime": "100.00%",

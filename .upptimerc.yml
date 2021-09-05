@@ -1,5 +1,5 @@
 owner: Samuel-Martineau
-repo: Smartineau.me-Etat
+repo: Smartineau.me-Status
 
 sites:
   - name: Site web personnel
@@ -9,21 +9,21 @@ sites:
     url: https://meli.smartineau.me
   - name: Minecraft Vanilla (Privé)
     url: $VANILLA_MC_DOMAIN
-    icon: https://raw.githubusercontent.com/Samuel-Martineau/Smartineau.me-Etat/master/assets/minecraft.png
+    icon: https://raw.githubusercontent.com/Samuel-Martineau/Smartineau.me-Status/master/assets/minecraft.png
     check: tcp-ping
     port: 25565
   - name: MondiumCJE
     url: $MONDIUMCJE_DOMAIN
 
 status-website:
-  cname: xn--tat-9la.smartineau.me
+  cname: status.smartineau.me
   theme: ocean
-  logoUrl: https://raw.githubusercontent.com/Samuel-Martineau/Smartineau.me-Etat/master/assets/upptime-icon.svg
+  logoUrl: https://raw.githubusercontent.com/Samuel-Martineau/Smartineau.me-Status/master/assets/upptime-icon.svg
   name: Upptime
   navbar:
-    - title: État
+    - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-user-agent: Smartineaume-Etat
+user-agent: Smartineaume-Satus
