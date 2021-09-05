@@ -12,6 +12,8 @@ sites:
     icon: https://raw.githubusercontent.com/Samuel-Martineau/Smartineau.me-Etat/master/assets/minecraft.png
     check: tcp-ping
     port: 25565
+  - name: MondiumCJE
+    url: $MONDIUMCJE_DOMAIN
 
 status-website:
   cname: xn--tat-9la.smartineau.me
