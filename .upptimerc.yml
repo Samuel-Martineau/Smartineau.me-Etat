@@ -7,13 +7,13 @@ sites:
     icon: https://smartineau.me/favicon.png
   - name: Meli
     url: https://meli.smartineau.me
+  - name: MondiumCJE
+    url: $MONDIUMCJE_DOMAIN
   - name: Minecraft Vanilla (Privé)
     url: $VANILLA_MC_DOMAIN
     icon: https://raw.githubusercontent.com/Samuel-Martineau/Smartineau.me-Status/master/assets/minecraft.png
     check: tcp-ping
     port: 25565
-  - name: MondiumCJE
-    url: $MONDIUMCJE_DOMAIN
 
 status-website:
   cname: status.smartineau.me
