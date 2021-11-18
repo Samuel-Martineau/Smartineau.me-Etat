@@ -7,6 +7,10 @@ sites:
     icon: https://smartineau.me/favicon.png
   - name: Meli
     url: https://meli.smartineau.me
+  - name: Fichiers
+    url: https://fichiers.smartineau.me
+  - name: Simulateur d'évolution - Expo-sciences
+    url: https://simulateur-evolution.expo-sciences.smartineau.me/
   - name: MondiumCJE
     url: $MONDIUMCJE_DOMAIN
   - name: Minecraft Vanilla (Privé)
