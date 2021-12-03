@@ -12,7 +12,7 @@ sites:
   - name: Simulateur d'évolution - Expo-sciences
     url: https://simulateur-evolution.expo-sciences.smartineau.me/
   - name: MondiumCJE
-    url: https://mondium.smartineau.me/
+    url: https://mondium.smartineau.me/paiement
   - name: Minecraft Vanilla (Privé)
     url: $VANILLA_MC_DOMAIN
     icon: https://raw.githubusercontent.com/Samuel-Martineau/Smartineau.me-Status/master/assets/minecraft.png
